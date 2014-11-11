@@ -26,10 +26,10 @@ public class Startup {
        
         Map<String, Employee> map = new HashMap<String, Employee>();
         
-        map.put("983813", e4);
-        map.put("189211", e3);
-        map.put("187813", e2);
-        map.put("187813", e1);
+        map.put(e4.getEmpIDNum(), e4);
+        map.put(e3.getEmpIDNum(), e3);
+        map.put(e2.getEmpIDNum(), e2);
+        map.put(e1.getEmpIDNum(), e1);
         
         Employee requestedEmp = map.get("983813");
         System.out.println("Requested employee: " + requestedEmp +"\n");
